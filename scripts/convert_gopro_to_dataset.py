@@ -85,18 +85,18 @@ def main(input_video, input_json, output_dir, video_downres_ratio, crf):
                 'frames': [
                     {
                         'cameraInd': 0,
-                        'cameraParameters': {
-                            'distortionCoefficients': [-0.004973, 0.03975, -0.0374, 0.006239],
-                            'distortionModel': 'KANNALA_BRANDT4',
-                            'focalLengthX': 284.929992675781,
-                            'focalLengthY': 285.165496826172,
-                            'principalPointX': 416.4547119140625,
-                            'principalPointY': 395.77349853515625
-                        },
-                        'imuToCamera': [[0.01486, 0.9995, -0.02577, 0.06522],
-                                        [-0.9998, 0.01496, 0.003756, -0.0207],
-                                        [0.00414, 0.02571, 0.9996, -0.008054],
-                                        [0, 0, 0, 1]],
+                        # 'cameraParameters': {
+                        #     'distortionCoefficients': [-0.004973, 0.03975, -0.0374, 0.006239],
+                        #     'distortionModel': 'KANNALA_BRANDT4',
+                        #     'focalLengthX': 284.929992675781,
+                        #     'focalLengthY': 285.165496826172,
+                        #     'principalPointX': 416.4547119140625,
+                        #     'principalPointY': 395.77349853515625
+                        # },
+                        # 'imuToCamera': [[0.01486, 0.9995, -0.02577, 0.06522],
+                        #                 [-0.9998, 0.01496, 0.003756, -0.0207],
+                        #                 [0.00414, 0.02571, 0.9996, -0.008054],
+                        #                 [0, 0, 0, 1]],
                         'time': frame_time
                     }
                 ],
