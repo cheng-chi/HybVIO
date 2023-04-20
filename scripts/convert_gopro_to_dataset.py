@@ -9,7 +9,7 @@ import tqdm
 @click.option('--input_video', '-iv', required=True, help='Input mp4 file')
 @click.option('--input_json', '-ij', required=True, help='Input json file')
 @click.option('--output_dir', '-o', required=True, help='Output dir')
-@click.option('--video_downres_ratio', '-vr', default=3, type=int)
+@click.option('--video_downres_ratio', '-vr', default=2, type=int)
 @click.option('--crf', default=20, type=str)
 def main(input_video, input_json, output_dir, video_downres_ratio, crf):
     # read json
